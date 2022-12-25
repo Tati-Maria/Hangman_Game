@@ -1,0 +1,12 @@
+.word-container{
+    display: flex;
+    gap: .25rem;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.word{
+    border-bottom: .1em solid #646cff;
+}

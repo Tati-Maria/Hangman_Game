@@ -1,0 +1,37 @@
+.key {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 10px #f4f4f453,
+                -20px -20px 60px #ffffff;
+    aspect-ratio: 1 / 1;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #111;
+}
+
+.btn.active{
+    color: white;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: inset 20px 20px 20px #f6f2f2,
+                inset -20px -20px 20px #ffffff;
+}
+
+.btn.inactive{
+    opacity: .3;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+    background-color: hsl(237, 100%, 70%);
+}

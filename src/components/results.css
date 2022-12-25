@@ -1,0 +1,13 @@
+.refresh-btn{
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    color: hsl(237, 100%, 70%);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+p{
+    color: #111;
+    text-align: center;
+}
