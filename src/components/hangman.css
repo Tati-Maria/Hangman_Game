@@ -94,3 +94,13 @@
   rotate: -60deg;
   transform-origin: right bottom;
 }
+
+@media (max-width: 800px) {
+  .rightarm,
+  .leftarm,
+  .leftleg,
+  .rightleg{
+    height: 7px;
+  }
+
+}
