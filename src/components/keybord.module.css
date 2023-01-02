@@ -8,8 +8,8 @@
     width: 100%;
     border-radius: 50px;
     background: #ffffff;
-    box-shadow:  20px 20px 10px #f4f4f453,
-                -20px -20px 60px #ffffff;
+    box-shadow:  20px 20px 10px rgba(245, 245, 245, 0.325),
+                -20px -20px 60px rgb(255, 255, 255);
     aspect-ratio: 1 / 1;
     font-size: 2rem;
     text-transform: uppercase;
@@ -37,8 +37,12 @@
 }
 
 @media (max-width: 800px) {
+    .key{
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+       gap: 0.5rem;
+    }
     .btn {
-        padding:.1em;
-        font-size: 1.2em;
+        padding:.1rem;
+        font-size: 1.2rem;
     }
 }
