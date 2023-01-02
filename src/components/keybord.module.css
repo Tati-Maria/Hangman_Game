@@ -44,5 +44,6 @@
     .btn {
         padding:.1rem;
         font-size: 1.2rem;
+        border: 2px solid hsl(237, 100%, 70%);
     }
 }

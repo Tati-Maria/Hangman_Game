@@ -10,3 +10,12 @@
 .word{
     border-bottom: .1em solid #646cff;
 }
+
+@media(max-width: 800px) {
+    .word-container {
+        margin: 0 1rem;
+        padding:  0 2rem;
+        font-size: 4rem;
+    }
+
+}
